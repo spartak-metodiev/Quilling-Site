@@ -1,26 +1,20 @@
 $(document).ready(function(){
 
-  //Set Options
-  var speed = 500;  			//fade speed
-  var autoSwitch = true; 	 	// suto slider option
-  var autoSwitchSpeed = 4000; 	//Auto slider speed
+  var speed = 500;  			
+  var autoSwitch = true; 	 	
+  var autoSwitchSpeed = 4000; 	
   
-  //Add initial active class
-
+  
   $( '.slide' ).first().addClass( 'active' );
 
-  //Hide all slides
 
   $( '.slide' ).hide();
 
-  //show the first slide
 
   $( '.active' ).show();
 
-		//Next handler
   $( '#next' ).on( 'click', nextSlide );
 
-		// Prev Handler
   $( '#prev' ).on( 'click', prevSlide );
 
 		if( autoSwitch == true ){
@@ -29,7 +23,6 @@ $(document).ready(function(){
 
 }
 
-  //this function will switch to the next slide
   	function nextSlide(){
   		$( '.active' ).removeClass( 'active' ).addClass( 'oldActive' );
   		  	if( $( '.oldActive' ).is( ':last-child' ) ){
