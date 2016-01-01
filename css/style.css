@@ -248,12 +248,6 @@ nav li:hover ul{
 
 }
 
-
-.second-nav ul{
-	
-
-}
-
 .second-nav li{
 	list-style:none;
 	display: inline-block;
@@ -312,9 +306,6 @@ footer p{
 	margin: 15px 0px;
 }
 
-
-
-
 .backdrop{
 	    display: none;
         position: fixed;
@@ -359,21 +350,21 @@ footer p{
 	display: block;
 	margin: 20px;
 	width: 80%;
-    padding: 4px 20px;
+	padding: 4px 20px;
 
 	
 
 }
 
 #exit{
-    float:right;
-    font-size: 20px;
+        float:right;
+	font-size: 20px;
 
 }
 
 #exit:hover{
-    color: #ccc;
-    cursor: pointer; 
+	color: #ccc;
+	cursor: pointer; 
   
 }
 
@@ -396,9 +387,9 @@ footer p{
 .name{
  	
  	background-image:url('../img/person.jpg');
-    background-repeat:no-repeat;
-    background-position:left bottom;
-    padding-left:20px;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	padding-left:20px;
 }
 
 
@@ -406,25 +397,25 @@ footer p{
 .adress{
 
 	background-image:url('../img/adress.jpg');
-    background-repeat:no-repeat;
-    background-position:left bottom;
-    padding-left:20px;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	padding-left:20px;
 }
 
 .phone{
 
 	background-image:url('../img/phone.jpg');
-    background-repeat:no-repeat;
-    background-position:left center;
-    padding-left:20px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
 }
 
 .city{
 
 	background-image:url('../img/city.jpg');
-    background-repeat:no-repeat;
-    background-position:left center;
-    padding-left:20px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
 
 }
 
@@ -432,23 +423,23 @@ footer p{
 .email{
 
 	background-image:url('../img/email.jpg');
-    background-repeat:no-repeat;
-    background-position:left center;
-    padding-left:20px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
 
 }
 
 .password{
 
 	background-image:url('../img/password.jpg');
-    background-repeat:no-repeat;
-    background-position:left center;
-    padding-left:20px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
 
 }
 
 .agreement{
-    margin: 0px;
+	margin: 0px;
 	
 
 }
@@ -459,7 +450,7 @@ footer p{
 	display: inline-block;
 	padding: 0px;
 	width: 10px;
-    margin: 0px;
+	margin: 0px;
 
 
 }
@@ -469,8 +460,8 @@ footer p{
 	margin-top: 20px;
 	width: 50%;
 	margin-left: auto;
-    margin-right: auto;
-    display: block;
+	margin-right: auto;
+	display: block;
 }
 
 #custom_paragraph{
